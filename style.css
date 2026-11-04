@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #b0b0b0;
+    padding: 40px 20px;
+}
+
+.page-wrapper-table {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    border-spacing: 40px 0;
+}
+
+.card-container-cell {
+    vertical-align: top;
+    width: 50%;
+}
+
+.top-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+    padding-left: 4px;
+}
+
+.card-table {
+    width: 100%;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.top-bar-cell {
+    padding-bottom: 16px;
+}
+
+.top-bar-table {
+    width: 100%;
+}
+
+.breadcrumbs {
+    font-size: 11px;
+    color: #888;
+}
+
+.admin-btn {
+    background-color: #2f80ed;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.page-title-cell {
+    padding-bottom: 20px;
+}
+
+.page-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.sidebar-cell {
+    width: 260px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.preview-cell {
+    vertical-align: top;
+}
+
+.sidebar-card-table {
+    width: 100%;
+    background: #f4f5f7;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.sidebar-card-table td {
+    padding-bottom: 4px;
+}
+
+.sidebar-card-table h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.price-from {
+    font-size: 11px;
+    color: #666;
+    padding-bottom: 12px;
+}
+
+.car-thumb {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.specs-list-table {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.specs-list-table td {
+    padding: 2px 0;
+}
+
+.specs-list-table strong {
+    color: #111;
+}
+
+.total-price {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.preview-card-table {
+    width: 100%;
+}
+
+.preview-card-table h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.preview-image-container {
+    height: 280px;
+    padding-bottom: 12px;
+}
+
+.preview-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.disclaimer {
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    padding-bottom: 16px;
+    line-height: 1.4;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.controls label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
